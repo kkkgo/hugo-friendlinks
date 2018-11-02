@@ -1,0 +1,76 @@
+<style type="text/css">
+.myfriends {
+	text-align: center;
+	background-color: #fff;
+	opacity: 0.9;
+}
+
+.myfriends a {
+	color: black;
+}
+
+.myfriends p {
+	display: none;
+}
+
+.friendurl {
+	text-decoration: none !important;
+	color: black;
+}
+
+.myfriend {
+	width: 56px !important;
+	height: 56px !important;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	padding: 2px;
+	box-shadow: 1px 1px 1px rgba(0,0,0, .15);
+	margin-top: 14px !important;
+	margin-left: 14px !important;
+	background-color: #fff;
+}
+
+.frienddiv {
+	height: 92px;
+	margin-top: 10px;
+	width: 48%;
+	display: inline-block !important;
+}
+
+.frienddiv:hover {
+	background: rgba(87, 142, 224, 0.15);
+}
+
+.frienddiv:hover .frienddivleft img {
+	transition: .9s!important;
+	-webkit-transition: .9s!important;
+	-moz-transition: .9s!important;
+	-o-transition: .9s!important;
+	-ms-transition: .9s!important;
+	transform: rotate(360deg)!important;
+	-webkit-transform: rotate(360deg)!important;
+	-moz-transform: rotate(360deg)!important;
+	-o-transform: rotate(360deg)!important;
+	-ms-transform: rotate(360deg)!important;
+}
+
+.frienddivleft {
+	width: 92px;
+	float: left;
+}
+
+.frienddivleft {
+	margin-right: 2px;
+}
+
+.frienddivright {
+	margin-top: 18px;
+	margin-right: 18px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+</style>
+<div class="myfriends">
+{{ .Content }}
+</div>
