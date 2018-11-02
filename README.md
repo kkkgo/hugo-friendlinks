@@ -1,7 +1,7 @@
 # a hugo friend links templates.
 ## usage
- - 1. copy "layouts" to your hugo website path or theme path.   
- - 2. creat a xxx.md, set page layout to "links", If you want to add to menu, set menu to main.  
+ - 1. Copy "layouts" to your hugo website path or theme path.   
+ - 2. Creat a xxx.md, set page layout to "links", If you want to add to index, set menu to main.  
 ```markdown
 ---
 title: "Myfriends"
