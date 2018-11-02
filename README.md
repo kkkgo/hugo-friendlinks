@@ -23,5 +23,5 @@ weight: 50
 {{< friend name="Mike" url="http://Mike.blog" logo="/Mike.jpg" word="A poor guy" >}}  
 ```
 
-- 4. Preview: https://03k.org/dalao  
-									
+- 4. Preview: https://03k.org/dalao  									
+ - 5. You need to find a template based on your theme, such as "single.html", copy the code to modify links.html, insert the original code.
