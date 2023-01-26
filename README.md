@@ -26,7 +26,8 @@ weight: 50
 
 - 4. Preview:   
 ![Preview](https://i.loli.net/2018/11/02/5bdbb398c097c.png)
- - 5. You need to find a template based on your theme, such as "single.html", copy the code to modify links.html, insert the original code.  
+ - 5. In order to display other content of the theme, You need to find a template based on your theme, such as "single.html". Refer to the code of "single.html" to modify "links.html". For example, insert some code at the head or tail. Make "links.html" look consistent with the template format of "single.html".
+  
 
 操作可以参考：https://github.com/kkkgo/hugo-friendlinks/issues/2#issuecomment-1370111972  
 效果预览：  https://blog.03k.org/friends.html  
